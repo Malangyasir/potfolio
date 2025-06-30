@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Potfolio</title>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <link rel="stylesheet" href="responsive.css" type="text/css">
+</head>
+
+<body>
+  <div class="container">
+    <img src="photos/yasar malang.png" alt="logo" class="logo" />
+    <nav>
+      <ul id="sidemenu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Project</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+      </ul>
+      <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+  </div>
+  <br />
+  <div class="center">
+    <p>I design, I code, I create — and I never stop learning.</p>
+    <br>
+    <h1>HI , It's Yasar</h1>
+    <h2>And I am a <span class="text"></span></h2>
+    <img src="photos/download-removebg-preview.jpg" alt="" class="image" />
+  </div>
+  <!-- ---------------------------------------about------------------------------->
+  <div class="about">
+    <div class="contaner">
+      <h1>About Me</h1>
+      <br /><br />
+      <p class="title">
+        Hey! I’m Mohammed Yasir — a full-stack developer on a mission to build useful, beautiful things for the web. I
+        thrive on
+        challenges, love clean design, and enjoy making complex ideas simple and accessible for everyone.
+      </p>
+      <br> <br>
+      <div class="tab-title">
+        <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+      </div>
+
+      <div class="tab-contents active-tab" id="Education">
+        <div class="edu-item">
+          <img src="photos/ihss.png" alt="IHSS Logo" class="edu-img" />
+          <div>
+            <span>2016 - 2022</span><br />
+            SSC | HSC <br />
+            Islamiah Higher Secondary School
+          </div>
+        </div>
+        <div class="edu-item">
+          <img src="photos/images.jpg" alt="CAHC Logo" class="edu-img" />
+          <div>
+            <span>2022 - 2025</span><br />
+            B.Sc. Computer Science<br />
+            C. Abdul Hakeem (Autonomous) College
+          </div>
+        </div>
+      </div>
+      <div class="tab-contents" id="Experience">
+        <div class="edu-item">
+          <img src="photos/download.png" alt="Intel Logo" class="edu-img" />
+          <div>
+            <span>June 2024 – July 2024</span><br />
+            <strong>Artificial Intelligence & Machine Learning</strong><br />
+            Internship at Intel Corporation
+          </div>
+        </div>
+      </div>
+      <!-- ----------------------------------------services------------------ -->
+      <section class="services" id="services">
+        <h2 class="section-title">My Services</h2>
+        <br><br>
+        <div class="service-cards">
+          <div class="card">
+            <i class="fas fa-code"></i>
+            <h3>Frontend Developer</h3>
+            <p>I build responsive, interactive websites using HTML, CSS, JavaScript, and modern frameworks like React.
+            </p>
+          </div>
+          <div class="card">
+            <i class="fas fa-server"></i>
+            <h3>Backend Developer</h3>
+            <p>I develop secure, scalable server-side logic using Node.js, PHP, and databases like MongoDB or MySQL.</p>
+          </div>
+          <div class="card">
+            <i class="fas fa-pencil-ruler"></i>
+            <h3>UI/UX Designer</h3>
+            <p>I design intuitive user interfaces with a focus on user experience, accessibility, and mobile
+              responsiveness.</p>
+          </div>
+        </div>
+      </section>
+      <!-- ------------------------------skills--------------------------- -->
+      <section class="skills-section">
+        <h2 class="skills-title">My Skills</h2>
+        <br><br>
+        <div class="skills-grid">
+          <div class="skill-item">
+            <img src="photos/html.png" alt="HTML" />
+            <p>HTML</p>
+          </div>
+          <div class="skill-item">
+            <img src="photos/5968242.png" alt="CSS" />
+            <p>CSS</p>
+          </div>
+          <div class="skill-item">
+            <img src="photos/download (1).png" alt="JavaScript" />
+            <p>JavaScript</p>
+          </div>
+          <div class="skill-item">
+            <img src="photos/react.png" alt="React" />
+            <p>React</p>
+          </div>
+          <div class="skill-item">
+            <img src="photos/next.js.png" alt="Node.js" />
+            <p>Next.js</p>
+          </div>
+          <div class="skill-item">
+            <img src="photos/native.png" alt="Node.js" />
+            <p>React Native</p>
+          </div>
+          <div class="skill-item">
+            <img src="photos/node.jpg" alt="Node.js" />
+            <p>Node.js</p>
+          </div>
+          <div class="skill-item">
+            <img src="photos/download (7).png" alt="JavaScript" />
+            <p>Java</p>
+          </div>
+          <div class="skill-item">
+            <img src="photos/express.png" alt="Express.js" />
+            <p>Express.js</p>
+          </div>
+          <div class="skill-item">
+            <img src="photos/download (4).png" alt="REST APIs" />
+            <p>REST APIs</p>
+          </div>
+          <div class="skill-item">
+            <img src="photos/mongodb.png" alt="MongoDB" />
+            <p>MongoDB</p>
+          </div>
+          <div class="skill-item">
+            <img src="photos/sql.pngg.png" alt="Node.js" />
+            <p>SQL</p>
+          </div>
+          <div class="skill-item">
+            <img src="photos/download (5).png" alt="Figma" />
+            <p>Figma</p>
+          </div>
+          <div class="skill-item">
+            <img src="photos/download (6).png" alt="Node.js" />
+            <p>Firebase</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- -----------------------------------------------------project----------------------------------------------- -->
+      <section id="projects">
+        <h2 class="section-title">My Project</h2>
+        <div class="projects-container">
+          <!-- Project 1 -->
+          <a href="https://malangyasir.github.io/disney-clone/" target="_blank" class="project-card">
+            <div class="card-content">
+              <img src="photos/download (3).png" alt="Disney+ Clone" class="project-img">
+              <h3>Disney+ Clone</h3>
+              <p>A responsive streaming site clone with login, banner, and carousel features.</p>
+            </div>
+          </a>
+
+          <!-- Project 2 -->
+          <a href="https://malangyasir.github.io/form/" target="_blank" class="project-card">
+            <div class="card-content">
+              <img src="photos/5569751.png" alt="Registration Form" class="project-img">
+              <h3>Registration Form</h3>
+              <p>A modern form built using HTML, CSS, and JavaScript with validations.</p>
+            </div>
+          </a>
+
+          <!-- Project 3 -->
+          <a href="https://e-combyyas.netlify.app/" target="_blank" class="project-card">
+            <div class="card-content">
+              <img src="photos/download (2).png" alt="E-commerce Website" class="project-img">
+              <h3>E-Commerce Website</h3>
+              <p>Fully functional website with cart, filters, and payment integration.</p>
+            </div>
+          </a>
+        </div>
+      </section>
+      <!-- -----------------------------------------contect--------------------------------------------------------------- -->
+      <div class="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <input type="tel" name="phone" placeholder="Phone Number" />
+          <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+        <p id="status"></p>
+        <div class="socials">
+          <a href="https://github.com/dashboard" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/_md.yasar_07/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://x.com/Malang_yasar07" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+          <a href="mailto:malangmohammedyasir@gmail.com"><i class="fas fa-envelope"></i></a>
+          <a href="tel:+918110812765"><i class="fas fa-phone"></i></a>
+        </div>
+        <div class="cv-btn">
+          <a href="ATS RESUME.pdf" download class="download-btn">
+            <span class="btn-icon"><i class="fas fa-download"></i></span>
+            <span class="btn-text">Download CV</span>
+          </a>
+        </div>
+      </div>
+      <br><br>
+      <!-- ---------------------------------------concluesion--------------------------- -->
+      <div class="end">
+        <h1>Designed and deployed by the guy who loves divs: Yasir 😄 </h1>
+        <div class="endlogo"><img src="photos/yasarlogo.png" alt=""></div>
+      </div>
+      <script src="script.js"></script>
+</body>
+
+</html>
